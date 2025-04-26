@@ -1,0 +1,17 @@
+[project]
+name = "xiuh"
+version = "0.1.0"
+description = "Generic ERP models and tools"
+readme = "README.md"
+authors = [
+    { name = "Medardo Antonio Rodriguez" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+xiuh = "xiuh:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
