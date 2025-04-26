@@ -1556,6 +1556,18 @@ version = "0.1.0"
 source = { editable = "." }
 
 [package.dev-dependencies]
+dev = [
+    { name = "furo" },
+    { name = "hypothesis" },
+    { name = "ipdb" },
+    { name = "ipykernel" },
+    { name = "isort" },
+    { name = "myst-parser" },
+    { name = "notebook" },
+    { name = "pytest" },
+    { name = "ruff" },
+    { name = "sphinx" },
+]
 docs = [
     { name = "furo" },
     { name = "myst-parser" },
@@ -1578,6 +1590,18 @@ tooling = [
 [package.metadata]
 
 [package.metadata.requires-dev]
+dev = [
+    { name = "furo", specifier = ">=2024.8.6" },
+    { name = "hypothesis", specifier = ">=6.131.9" },
+    { name = "ipdb", specifier = ">=0.13.13" },
+    { name = "ipykernel", specifier = ">=6.29.5" },
+    { name = "isort", specifier = ">=6.0.1" },
+    { name = "myst-parser", specifier = ">=4.0.1" },
+    { name = "notebook", specifier = ">=7.4.1" },
+    { name = "pytest", specifier = ">=8.3.5" },
+    { name = "ruff", specifier = ">=0.11.7" },
+    { name = "sphinx", specifier = ">=8.2.3" },
+]
 docs = [
     { name = "furo", specifier = ">=2024.8.6" },
     { name = "myst-parser", specifier = ">=4.0.1" },
